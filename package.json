@@ -1,7 +1,7 @@
 {
   "name": "nuxt-delay-hydrate-fetch-api-bug",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bug reproduction nuxt lazy hydrate",
   "author": "Nuxt.js Team",
   "private": true,
   "scripts": {
@@ -12,7 +12,8 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
-    "nuxt": "^2.15.0"
+    "nuxt": "^2.15.0",
+    "nuxt-delay-hydration": "0.3.2"
   },
   "keywords": []
 }
